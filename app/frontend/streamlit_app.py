@@ -65,7 +65,7 @@ if st.button("🚀 Predict Customer Segment"):
     try:
 
         response = requests.post(
-            "http://127.0.0.1:8000/predict",
+            "https://customer-segmentation-1-ot3k.onrender.com/predict",
             json=payload,
             timeout=10
         )
